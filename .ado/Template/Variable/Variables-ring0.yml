@@ -13,7 +13,7 @@ variables:
   value: $(AppName)-connector-$(Env)-$(InstanceNumber)
 
 - name: DeploymentGroupName  # Name given to the dedicated Azure DevOps Pool
-  value: ServicesDevOps-LeadingEdgeDelivery
+  value: Azure Pipelines
 
 - name: SubscriptionId
   value: 12bbf939-9ba0-4884-9ddd-9ec927313a9c
