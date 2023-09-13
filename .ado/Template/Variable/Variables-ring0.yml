@@ -40,10 +40,10 @@ variables:
   value: https://$(AdoOrganizationName)@dev.azure.com/$(AdoOrganizationName)/$(AdoProjectName)/_git/$(AdoProjectName)
 
 - name: PipelineName  # URL to repo that contains the pipeline that will be published
-  value: main-$(AppName)-$(Env)-$(InstanceNumber)
+  value: microsoft.burp
 
 - name: BranchName  # Default branch to use for startup pipeline
-  value: master
+  value: main
 
 - name: TargetRegion
   value: centralus  
